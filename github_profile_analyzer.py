@@ -24,13 +24,11 @@ class GitHubProfileAnalyzer:
         self.base_url = 'https://api.github.com'
 
     def get_user_info(self, username: str) -> Dict[str, Any]:
-        """Previous implementation remains the same"""
         response = requests.get(f'{self.base_url}/users/{username}', headers=self.headers)
         response.raise_for_status()
         return response.json()
 
     def get_user_repos(self, username: str) -> List[Dict[str, Any]]:
-        """Previous implementation remains the same"""
         repos = []
         page = 1
         while True:
