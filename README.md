@@ -28,8 +28,8 @@ A comprehensive Python tool for analyzing GitHub user profiles and generating de
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/github-profile-analyzer.git
-cd github-profile-analyzer
+git clone https://github.com/makalin/GitHub-Profile-Analyzer.git
+cd GitHub-Profile-Analyzer
 ```
 
 2. Install required dependencies:
